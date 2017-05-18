@@ -49,6 +49,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EntitiesConfigurations\CuentaConfigurations.cs" />
+    <Compile Include="EntitiesConfigurations\DispensadorConfigurations.cs" />
+    <Compile Include="EntitiesConfigurations\PantallaConfigurations.cs" />
+    <Compile Include="EntitiesConfigurations\RanuraConfigurations.cs" />
+    <Compile Include="EntitiesConfigurations\TecladoConfigurations.cs" />
     <Compile Include="Lc2DbContext.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -63,6 +68,7 @@
       <Name>2014102166-ENT</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
