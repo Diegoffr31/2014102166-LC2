@@ -12,6 +12,9 @@ namespace CajeroAutomatico.Persistencia
     {
 
 
+
+
+
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Cuenta> Cuentas { get; set; }
         public DbSet<DispensadorEfectivo> DispensadorEfectivos { get; set; }
